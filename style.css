@@ -1,0 +1,165 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;	
+}
+.main
+{
+	width:100%;
+	height:100vh;
+	position:relative;
+	overflow:hidden;
+	background:linear-gradient(to right,#9c27b0,#8ecdff);
+}
+nav{
+  width: 80%;
+  position : sticky;
+  margin:20px auto;
+   z-index:1;
+  display:flex;
+  align-items:center;
+}
+.logo{
+	flex-basis:20%;
+	 z-index:1;
+}
+.logo img
+{
+	width:150px;
+    z-index:1;
+}
+.nav-links
+{     margin-left:200px;
+       flex:1;
+	  text-align:center;
+}
+.nav-links  ul li{
+	  list-style:none;
+	  display:inline-block;
+	  margin :0 20px;
+}
+.nav-links  ul li a{
+	    color:white;
+		text-decoration: none;
+}
+.nav-links ul li a:hover{
+  color: #170b06;
+  /* font-size: 5px; */
+}
+.information
+{
+	width:800px;
+	height:1000px;
+	position:absolute;
+	top:50%;
+	left:-10%;
+	transform: translateY(-50%);
+	
+}
+.overlay{
+	
+	width:0;
+	height:0;
+	margin-left:-12%;
+	margin-top:10%;
+	border-top:500px solid white;
+	border-left:500px solid white;
+	border-right:500px solid transparent;
+	border-bottom:500px solid white;
+  
+}
+.mobile
+{     width:20%;
+    /*margin-top:65%;
+    margin-left:200px;*/
+	position:absolute;
+	 top:55%;
+	 left:30%;
+    z-index:1;
+	transform:translateY(-50%);
+
+}
+#circle{
+	width:700px;
+	height:700px;
+	position:absolute;
+	top:20%;
+	left:0%;
+	border-radius:50%;
+    transform:rotate(0deg);
+	transition:1s;
+	
+}
+.features
+{
+	position:absolute;
+	display:flex;
+	color:white;
+	font-size:15px;
+}
+.features div{
+	margin-left:20px;
+}
+.features div p{
+	   margin-top:5px;
+}
+.features img{
+	width :70px;
+}
+.one{
+	top:70px;
+    left:250px;
+	transform:rotate(-90deg);
+	
+}
+.two{
+	top:290px;
+    left:-5%;
+	transform:rotate(-180deg);
+   
+}
+.three{
+	top:550px;
+    left:200px;
+	 transform:rotate(90deg);
+	
+}
+.four{
+	top:340px;
+    left:70%;
+	
+}
+.control
+{   
+	position:absolute;
+	top:50%;
+	right:10%;
+	transform:translateY(-50%);
+	text-align:center;
+}
+.control h3{
+    margin: 15px 0;
+	color:#fff;
+}
+#up{
+	width:20px;
+	cursor:pointer;
+}
+#down{
+	width:20px;
+	cursor:pointer;
+	transform:rotate(180deg);
+}
+
+
+/***  ABOUT  ****/
+.mainabout{
+  background:linear-gradient(to right,#9c27b0,#8ecdff);
+}
+.click{
+	/* margin: auto; */
+	top: 50%;
+	right: 50%;
+	align-items: center;
+}
